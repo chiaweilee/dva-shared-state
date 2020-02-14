@@ -1,6 +1,6 @@
 {
   "name": "dva-shared-state",
-  "version": "",
+  "version": "0.0.0",
   "description": "State getter plugin for dva.js",
   "scripts": {
     "prepublishOnly": "npm test && npm run build",
@@ -22,7 +22,6 @@
   ],
   "dependencies": {},
   "peerDependencies": {
-    "react": "^16.6.0",
     "dva": "^2.0.0"
   },
   "devDependencies": {
