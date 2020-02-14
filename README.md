@@ -16,19 +16,10 @@ https://chiaweilee.github.io/dva-shared-state/
 
 ## Usage
 
-#### dva API
-
-At `app.use(hooks)` of `dva`
-
 ```js
 import createSharedState from 'dva-shared-state';
 app.use(createSharedState);
 ```
-
-Or, `src/app.(js|ts)` in `umi.js`
-
-#### use state
-
 
 ```js
 import { state } from 'dva-shared-state';
